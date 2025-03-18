@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <h1 class="text-center" mt-2 mb-4>{{company_name}} Careers</h1>
-        <img class="img-fluid" id="banner" src="http://192.168.202.108:5000/static/banner.jpg">
+        <img class="img-fluid" id="banner" src="http://192.168.1.41:5000/static/banner.jpg">
         <h2 class="text-center"> About Jovian</h2>
         <p class="lead">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -30,7 +30,7 @@
             including versions of Lorem Ipsum.
         </p>
 
-        <h2 class="text-center" mt-2 mb-4>Open positions</h2>
+        <h2 class="text-center" mt-2 mb-4>Job Openings</h2>
         <div>
             {% for job in jobs %}
             {% include 'jobitem.html'%}
